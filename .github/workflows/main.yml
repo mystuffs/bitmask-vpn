@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: git clone git@0xacab.org:leap/bitmask-vpn.git && cd bitmask-vpn && make depends && make build
+      run: git clone https://github.com/mystuffs/bitmask-vpn && cd bitmask-vpn && make depends && make build
